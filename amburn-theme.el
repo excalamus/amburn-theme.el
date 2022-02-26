@@ -1,4 +1,4 @@
-;;; amburn-theme.el --- A high contrast amber theme
+;;; amburn-theme.el --- A high contrast amber theme -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2021 Excalamus
 
