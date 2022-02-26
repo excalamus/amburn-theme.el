@@ -18,8 +18,8 @@ Then call,
 
 This theme works best when paired with one of the following True-Type Fonts:
 
-1. VT220-mod.ttf (pictured) 
-2. Glass_TTY_VT220.ttf 
+1. [VT220-mod.ttf](https://github.com/excalamus/amburn-theme.el/blob/main/VT220-mod.ttf) (pictured) 
+2. [Glass_TTY_VT220.ttf](https://github.com/excalamus/amburn-theme.el/blob/main/Glass_TTY_VT220.ttf)
 
 Both fonts are in the public domain and are included with `amburn-theme.el`.  Their upstreams are here:https://github.com/lalo/VT220-mod-font and here: https://github.com/svofski/glasstty.
 
