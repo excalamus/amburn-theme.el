@@ -1,7 +1,7 @@
 # amburn-theme.el
 A high contrast amber theme for Emacs.
 
-People talk about how "old" Emacs looks. I say ignore the agists and embrace our long legacy.  The future of Emacs glows as brightly now as the phosphor screens of yore.  Speaking of which, Emacs didn't have an amber theme until now.
+People talk about how "old" Emacs looks. I say ignore the agists and embrace the legacy.  The future of Emacs glows as brightly now as the phosphor screens of yore.
          
 
 ![amburn](https://user-images.githubusercontent.com/53576362/155818685-6b259781-a1b9-4250-9894-8fcee3511c7e.png)
