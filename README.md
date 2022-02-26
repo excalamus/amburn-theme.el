@@ -17,7 +17,7 @@ Then call,
 ```
 
 This theme works best when paired with one of the following True-Type Fonts:
-1. https://github.com/lalo/VT220-mod-font
+1. https://github.com/lalo/VT220-mod-font (pictured)
 2. https://github.com/svofski/glasstty
 
 Download the font and put it in `~/.local/share/fonts/`, creating any directories that don't exist.
