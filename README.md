@@ -18,7 +18,7 @@ Then call,
 
 This theme works best when paired with one of the following True-Type Fonts:
 
-1. [VT220-mod.ttf](https://github.com/excalamus/amburn-theme.el/blob/main/VT220-mod.ttf) (pictured) 
+1. ~~[VT220-mod.ttf](https://github.com/excalamus/amburn-theme.el/blob/main/VT220-mod.ttf)~~ (pictured)  (FAILS FOR ISEARCH)
 2. [Glass_TTY_VT220.ttf](https://github.com/excalamus/amburn-theme.el/blob/main/Glass_TTY_VT220.ttf)
 
 Both fonts are in the public domain and are included with `amburn-theme.el`.  Their upstreams are here:https://github.com/lalo/VT220-mod-font and here: https://github.com/svofski/glasstty.
@@ -30,8 +30,8 @@ Enable the font using:
 ```lisp
 ;; Height values in 1/10pt, so 100 will give you 10pt, etc.
 (set-face-attribute 'default nil
-                    :font "VT220-mod"  ; or Glass_TTY_VT220
-                    :height 200)
+                    :font "Glass TTY VT220"
+                    :height 150)
 ```
 
 # Modifying
