@@ -135,26 +135,26 @@ colorizes every face that starts with the prefix."
 ;; individual faces
 ;; set second to override the bulk
 
-(defcustom amburn--individual-fgl-on-bg '(hl-line link link-visited)
+(defcustom amburn-individual-fgl-on-bg '(hl-line link link-visited)
     "List of faces to colorize."
     :type '(repeat symbol))
 
-(defcustom amburn--individual-fgd-on-bg '(border default fringe gui-element header-line minibuffer-prompt mode-line-inactive shadow vertical-border widget-button widget-field)
+(defcustom amburn-individual-fgd-on-bg '(border default fringe gui-element header-line minibuffer-prompt mode-line-inactive shadow vertical-border widget-button widget-field)
     "List of faces to colorize."
     :type '(repeat symbol))
 
-(defcustom amburn--individual-bg-on-fgl '(error secondary-selection success warning)
+(defcustom amburn-individual-bg-on-fgl '(error secondary-selection success warning)
     "List of faces to colorize."
     :type '(repeat symbol))
 
-(defcustom amburn--individual-bg-on-fgd '(cursor highlight mode-line region show-paren-match show-paren-match-expression show-paren-mismatch trailing-whitespace)
+(defcustom amburn-individual-bg-on-fgd '(cursor highlight mode-line region show-paren-match show-paren-match-expression show-paren-mismatch trailing-whitespace)
   "List of faces to colorize."
   :type '(repeat symbol))
 
-(amburn--set 'amburn--style-fgd-on-bg amburn--individual-fgd-on-bg)
-(amburn--set 'amburn--style-fgl-on-bg amburn--individual-fgl-on-bg)
-(amburn--set 'amburn--style-bg-on-fgd amburn--individual-bg-on-fgd)
-(amburn--set 'amburn--style-bg-on-fgl amburn--individual-bg-on-fgl)
+(amburn--set 'amburn--style-fgd-on-bg amburn-individual-fgd-on-bg)
+(amburn--set 'amburn--style-fgl-on-bg amburn-individual-fgl-on-bg)
+(amburn--set 'amburn--style-bg-on-fgd amburn-individual-bg-on-fgd)
+(amburn--set 'amburn--style-bg-on-fgl amburn-individual-bg-on-fgl)
 
 ;;;###autoload
 (when load-file-name
