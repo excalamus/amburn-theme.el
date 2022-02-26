@@ -17,10 +17,13 @@ Then call,
 ```
 
 This theme works best when paired with one of the following True-Type Fonts:
-1. https://github.com/lalo/VT220-mod-font (pictured)
-2. https://github.com/svofski/glasstty
 
-Download the font and put it in `~/.local/share/fonts/`, creating any directories that don't exist.
+1. VT220-mod.ttf (pictured) 
+2. Glass_TTY_VT220.ttf 
+
+Both fonts are in the public domain and are included with `amburn-theme.el`.  Their upstreams are here:https://github.com/lalo/VT220-mod-font and here: https://github.com/svofski/glasstty.
+
+Put the fonts in `~/.local/share/fonts/`, creating any directories that don't exist.
 
 Enable the font using:
 
