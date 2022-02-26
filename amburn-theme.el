@@ -37,7 +37,7 @@
 (deftheme amburn "A high contrast amber theme.")
 
 (defgroup amburn-theme nil
-  "Amburn theme colors and faces."
+  "A high contrast amber theme."
   :group 'faces
   :prefix "amburn-")
 
@@ -45,15 +45,15 @@
 ;; colors
 
 (defcustom amburn-fgl "#fcc000"
-  "Color to use for text."
+  "Foreground light."
   :type 'color)
 
 (defcustom amburn-fgd "#fbb000"
-  "Color to use for text."
+  "Foreground dark"
   :type 'color)
 
 (defcustom amburn-bg "#282828"
-  "Color to use for background."
+  "Background."
   :type 'color)
 
 
