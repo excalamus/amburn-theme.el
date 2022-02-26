@@ -92,22 +92,22 @@ A style is one of the `amburn--style-*' functions."
 
 (defcustom amburn-bulk-fgl-on-bg '()
   "Mapping from files to face prefixes: when file is first loaded,
-decolorizes every face that starts with the prefix."
+colorizes every face that starts with the prefix."
   :type '(alist :key-type symbol :value-type string))
 
 (defcustom amburn-bulk-fgd-on-bg '((font-lock . "font-lock-") (helm . "helm-"))
   "Mapping from files to face prefixes: when file is first loaded,
-decolorizes every face that starts with the prefix."
+colorizes every face that starts with the prefix."
   :type '(alist :key-type symbol :value-type string))
 
 (defcustom amburn-bulk-bg-on-fgd '()
   "Mapping from files to face prefixes: when file is first loaded,
-decolorizes every face that starts with the prefix."
+colorizes every face that starts with the prefix."
   :type '(alist :key-type symbol :value-type string))
 
 (defcustom amburn-bulk-bg-on-fgl '()
   "Mapping from files to face prefixes: when file is first loaded,
-decolorizes every face that starts with the prefix."
+colorizes every face that starts with the prefix."
   :type '(alist :key-type symbol :value-type string))
 
 (defun amburn--namespace-face-list (namespace)
@@ -136,19 +136,19 @@ decolorizes every face that starts with the prefix."
 ;; set second to override the bulk
 
 (defcustom amburn--individual-fgl-on-bg '(hl-line link link-visited)
-    "List of faces to decolorize."
+    "List of faces to colorize."
     :type '(repeat symbol))
 
 (defcustom amburn--individual-fgd-on-bg '(border default fringe gui-element header-line minibuffer-prompt mode-line-inactive shadow vertical-border widget-button widget-field)
-    "List of faces to decolorize."
+    "List of faces to colorize."
     :type '(repeat symbol))
 
 (defcustom amburn--individual-bg-on-fgl '(error secondary-selection success warning)
-    "List of faces to decolorize."
+    "List of faces to colorize."
     :type '(repeat symbol))
 
 (defcustom amburn--individual-bg-on-fgd '(cursor highlight mode-line region show-paren-match show-paren-match-expression show-paren-mismatch trailing-whitespace)
-  "List of faces to decolorize."
+  "List of faces to colorize."
   :type '(repeat symbol))
 
 (amburn--set 'amburn--style-fgd-on-bg amburn--individual-fgd-on-bg)
