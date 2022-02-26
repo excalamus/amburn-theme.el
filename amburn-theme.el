@@ -143,7 +143,7 @@ colorizes every face that starts with the prefix."
     "List of faces to colorize."
     :type '(repeat symbol))
 
-(defcustom amburn-individual-bg-on-fgl '(error secondary-selection success warning)
+(defcustom amburn-individual-bg-on-fgl '(error isearch secondary-selection success warning)
     "List of faces to colorize."
     :type '(repeat symbol))
 
