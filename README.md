@@ -61,15 +61,15 @@ The variable should hold a list of cons cells where the car is the filename and 
 
 Finally, individual faces are set using one of:
 
-* `amburn--individual-fgl-on-bg`
-* `amburn--individual-fgd-on-bg`
-* `amburn--individual-bg-on-fgl`
-* `amburn--individual-bg-on-fgd`
+* `amburn-individual-fgl-on-bg`
+* `amburn-individual-fgd-on-bg`
+* `amburn-individual-bg-on-fgl`
+* `amburn-individual-bg-on-fgd`
 
 Each of these is a list of faces to color accordingly.  For example,
 
 ```lisp
-(setq amburn--individual-bg-on-fgl
+(setq amburn-individual-bg-on-fgl
       '(
         error
         secondary-selection
